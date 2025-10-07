@@ -13,6 +13,8 @@ export default function ShaderBackground() {
     if (!gl) return;
 
     function resize() {
+      if (!canvas || !gl) return;
+      
       const devicePixelRatio = window.devicePixelRatio || 1;
       const displayWidth = window.innerWidth;
       const displayHeight = window.innerHeight;
@@ -120,6 +122,8 @@ export default function ShaderBackground() {
     const iTime = gl.getUniformLocation(program, 'iTime');
 
     function render(time: number) {
+      if (!gl || !canvas || !iResolution || !iTime) return;
+      
       gl.uniform2f(iResolution, canvas.width, canvas.height);
       gl.uniform1f(iTime, time * 0.001);
       gl.drawArrays(gl.TRIANGLES, 0, 6);
