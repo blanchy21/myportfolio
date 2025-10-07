@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight, Mail, MapPin, Cpu, Check, ArrowUpRight, Bot, Workflow, Code2, Database, Brain, Server } from "lucide-react";
 import Image from "next/image";
-import ShaderBackground from "@/components/ShaderBackground";
+import ShaderBackground from "../components/ShaderBackground";
 
 export default function Home() {
   return (
