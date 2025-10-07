@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Mail, MapPin, Cpu, Check, ArrowUpRight, Bot, Workflow, Code2, Database, Brain, Server } from "lucide-react";
+import { ArrowRight, Mail, MapPin, Cpu, Check, ArrowUpRight, Bot, Workflow, Code2, Database, Server } from "lucide-react";
 import Image from "next/image";
 import ShaderBackground from "../components/ShaderBackground";
 
@@ -328,13 +328,13 @@ export default function Home() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-6">About Me</h2>
                   <p className="text-lg text-white/70 leading-relaxed mb-6">
-                    I'm a passionate frontend developer specializing in React, Next.js, and modern web technologies. 
+                    I&apos;m a passionate frontend developer specializing in React, Next.js, and modern web technologies. 
                     Based in Tipperary, Ireland, I love creating beautiful, functional web applications that provide 
                     exceptional user experiences.
                   </p>
                   <p className="text-lg text-white/70 leading-relaxed">
-                    I don't charge by the hour. I want the client to be happy with their website and if they are, 
-                    we can agree a price accordingly. When I'm not coding, you'll find me exploring new technologies, 
+                    I don&apos;t charge by the hour. I want the client to be happy with their website and if they are, 
+                    we can agree a price accordingly. When I&apos;m not coding, you&apos;ll find me exploring new technologies, 
                     contributing to open source projects, or working on personal projects like Tipster Arena - a social platform for tipsters.
                   </p>
             </div>
