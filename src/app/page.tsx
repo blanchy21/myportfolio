@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight, Mail, MapPin, Cpu, Check, ArrowUpRight, Bot, Workflow, Code2, Database, Server } from "lucide-react";
 import Image from "next/image";
 import ShaderBackground from "../components/ShaderBackground";
+import TikTokEmbed from "../components/TikTokEmbed";
 
 export default function Home() {
   return (
@@ -339,15 +340,9 @@ export default function Home() {
                   </p>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl border border-white/10 p-8">
-                <div className="h-full flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-white/10 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <Cpu className="w-12 h-12 text-white/70" />
-                    </div>
-                    <h3 className="text-xl font-semibold mb-2">Frontend Focus</h3>
-                    <p className="text-white/60">React • Next.js • TypeScript</p>
-                  </div>
+              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl border border-white/10 p-8">
+                <div className="flex items-center justify-center">
+                  <TikTokEmbed />
                 </div>
               </div>
             </div>
