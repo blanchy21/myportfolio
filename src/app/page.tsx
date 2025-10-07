@@ -339,13 +339,14 @@ export default function Home() {
                   </p>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl border border-white/10 p-8">
+              <div className="bg-black rounded-2xl border border-white/10 p-8">
                 <div className="flex items-center justify-center">
                   <video 
-                    className="w-full max-w-md rounded-xl shadow-lg"
+                    className="w-full max-w-md rounded-xl shadow-lg bg-black"
                     controls
                     poster="/portfolio-photo.png"
                     preload="metadata"
+                    style={{ backgroundColor: '#000000' }}
                   >
                     <source src="/Tipster.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
